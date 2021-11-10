@@ -1,0 +1,48 @@
+.sidebar .sidebar-header, .sidebar .menu {
+    background: #006749;
+}
+
+.sidebar-header .sidebar-profile-details span {
+    color: #ffffff;
+}
+
+.sidebar-header .sidebar-profile-details small {
+    color: #FFFFFF;
+}
+
+.sidebar .menu a span {
+    color: #FFFFFF;
+}
+
+.sidebar .menu a p {
+    color: #ffffff;
+}
+
+ .sidebar .menu li.active > a {
+    background: #b4c404;
+}
+
+.sidebar .menu a:hover, .sidebar .menu li.active.open > a, .sidebar .menu li.open{
+    background: #2d2f2e;
+}
+
+.sidebar .menu a:hover span, .sidebar .menu li.active a > span, .sidebar .menu li.open > a span {
+    color: #006848;
+}
+.menu.accordion-menu ul.sub-menu {
+    background: #00402C;
+}
+
+.menu.accordion-menu ul.sub-menu li a {
+    color: #FFFFFF;
+    transition: .3s all ease-in-out;
+}
+
+.menu.accordion-menu ul.sub-menu li.active a, .menu.accordion-menu ul.sub-menu a:hover {
+    background: transparent;
+    color: #CCCCCC;
+}
+
+#homepage {
+    margin-top: 100px;
+}
